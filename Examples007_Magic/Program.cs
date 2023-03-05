@@ -28,7 +28,7 @@ while (count < 1000)
         x = (x + xa) / 2;
         y = (y + ya) / 2;
     }
-    
+
     if (what == 1)
     {
         x = (x + xb) / 2;
@@ -43,6 +43,6 @@ while (count < 1000)
 
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
-    count ++;
-    
+    count++;
+
 }
